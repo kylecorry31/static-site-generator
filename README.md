@@ -54,3 +54,7 @@ You can create reusable HTML snippets in the `_includes` directory. These can be
 
 ### Defaults
 You can create default layouts for items by creating an `_item.html` file in the collection directory. This will be used as the template for each item in the collection rather than a simple dump of the content. This can be overridden by creating an `_item.html` file in the collection's directory.
+
+
+### Example
+You can find a live example at https://github.com/kylecorry31/kylecorry31.github.io
