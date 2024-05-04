@@ -1,0 +1,4 @@
+title: "My Site"
+base_url: "/"
+source: "sample"
+destination: "_site"

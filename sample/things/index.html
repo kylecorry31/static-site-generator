@@ -1,0 +1,13 @@
+{{{includes.header}}}
+<p>An index page for the "things" collection</p>
+
+<ul>
+    {{#collections.things.categories}}
+        <h3>{{name}}</h3>
+        {{#items}}
+            <li><a href="{{ url }}">{{ title }}</a></li>
+        {{/items}}
+    {{/collections.things.categories}}
+</ul>
+
+{{{includes.footer}}}

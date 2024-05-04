@@ -1,0 +1,12 @@
+{{{includes.header}}}
+<p>Sample content</p>
+
+<ul>
+  {{#collections.posts.items}}
+  <li><a href="{{ url }}">{{ title }} - {{ other_field }}</a></li>
+  {{/collections.posts.items}}
+</ul>
+
+<a href="/things">Things</a>
+
+{{{includes.footer}}}

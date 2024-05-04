@@ -1,0 +1,4 @@
+markdown
+pystache
+PyYAML
+watchdog
